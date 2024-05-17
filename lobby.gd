@@ -18,7 +18,7 @@ func create_game():
 
 	multiplayer.multiplayer_peer = peer
 	players[1] = player_info
-	player_connected.emit(1, player_info
+	player_connected.emit(1, player_info)
 	
 func _on_player_connected(id):
 	pass
